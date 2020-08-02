@@ -1,10 +1,10 @@
 import { connection } from './config';
-import { ErrorCode } from './constants';
-import { Error } from './types';
+import { Error, ErrorCode } from './types';
 
 export async function runQuery(
   sqlQuery: string,
   values?: Record<string, unknown>
+  // eslint-disable-next-line
 ): Promise<any> {
   return new Promise((resolve, reject) => {
     connection.query(sqlQuery, values, (err, result) => {
