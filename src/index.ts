@@ -15,11 +15,13 @@ const baseEndpoint = '/api';
 
 app.use(config);
 const controllers = [
+  Controller.accolades,
   Controller.resume,
   Controller.writing,
   Controller.downloads,
   Controller.chatbot,
-  Controller.arguebot
+  Controller.arguebot,
+  Controller.projects
 ];
 controllers.forEach((controller) => app.use(baseEndpoint, controller));
 

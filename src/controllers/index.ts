@@ -1,7 +1,9 @@
+import { accolades } from './accolades';
+import { arguebot } from './arguebot';
+import { chatbot } from './chatbot';
+import { downloads } from './downloads';
+import { projects } from './projects';
 import { resume } from './resume';
 import { writing } from './writing';
-import { downloads } from './downloads';
-import { chatbot } from './chatbot';
-import { arguebot } from './arguebot';
 
-export { resume, writing, downloads, chatbot, arguebot };
+export { accolades, arguebot, chatbot, downloads, projects, resume, writing };

@@ -7,7 +7,7 @@ import { Error, ErrorCode } from '../../types';
 const app = express();
 
 const baseEndpoint = '/downloads';
-const downloadsFolder = '/Downloads';
+const downloadsFolder = '../../../data/Downloads';
 
 app.get(`${baseEndpoint}`, function (req, res) {
   res.sendFile(path.join(__dirname, downloadsFolder, 'info.json'));
