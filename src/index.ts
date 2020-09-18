@@ -11,7 +11,7 @@ import * as Controller from './controllers';
 
 const app = express();
 
-const baseEndpoint = '/api';
+const baseEndpoint = '/';
 
 app.use(config);
 const controllers = [
