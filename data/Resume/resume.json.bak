@@ -7,8 +7,9 @@
   },
   "basics": {
     "name": "Jameel Kelley",
+    "phone": "563-599-3205",
     "website": "jamkelley.com",
-    "email": "jkelley@iastate.edu",
+    "email": "jamkelley22@gmail.com",
     "location": {
       "address": "Ames, IA"
     }
@@ -16,58 +17,54 @@
   "education": [
     {
       "institution": "Iowa State University",
-      "area": "Human-Computer Interaction",
-      "studyType": "MS",
+      "area": "Software Engineering",
+      "studyType": "BS",
       "location": "Ames, IA",
-      "gpa": "4.0",
-      "endDate": "Expected May 2022"
+      "gpa": "3.31",
+      "startDate": "Aug 2016",
+      "endDate": "May 2020"
     },
     {
       "institution": "Iowa State University",
       "location": "Ames, IA",
-      "area": "Software Engineering",
-      "endDate": "May 2020",
-      "gpa": "3.31",
-      "studyType": "BS",
-      "startDate": "Aug 2016"
+      "studyType": "MS",
+      "area": "Human-Computer Interaction",
+      "endDate": "Expected May 2022"
     }
   ],
   "work": [
     {
       "website": "",
       "highlights": [
-        "Facilitating communication and collaboration between students on discussion boards",
-        "Problem-Solving with students during office hours to find root cause of errors",
-        "Managing grading for 50+ students on a weekly basis"
-      ],
-      "company": "Iowa State University",
-      "position": "Graduate Teaching Assistant",
-      "location": "Ames, IA",
-      "startDate": "Aug 2020",
-      "endDate": "Present"
-    },
-    {
-      "highlights": [
-        "Worked in a cross-disciplinary team to create accurate simulations in a virtual space",
-        "Created a mixed reality learning environment (VR + Physical) to assist in a more efficient and economical education of US personnel",
-        "Leveraged the latest Vive VR technology with Unity to immerse users in a seamless virtual environment with physical equipment"
+        "Working in a cross-disciplinary team to create accurate simulations in a virtual space"
       ],
       "company": "Virtual Reality Applications Center",
       "position": "Research Assistant",
       "location": "Ames, IA",
-      "startDate": "Jan 2018",
-      "endDate": "Aug 2020"
+      "startDate": "May 2020",
+      "endDate": "Present"
     },
     {
       "highlights": [
-        "Led a team of five engineers in technology discovery and implementation of 13 client-facing application pages in a React environment",
+        "Led a team of five engineers in technology discovery and implementation of 13 client facing application pages in a React environment",
         "Tested code written by peers and created documentation upon discovery of issues"
       ],
-      "company": "Buildertrend",
-      "position": "Software Development Intern",
-      "location": "Omaha, NE",
+      "endDate": "Aug 2019",
       "startDate": "May 2019",
-      "endDate": "Aug 2019"
+      "location": "Omaha, NE",
+      "position": "Software Development Intern",
+      "company": "Buildertrend"
+    },
+    {
+      "highlights": [
+        "Creating mixed reality learning environment (VR + Physical) to assist in more efficient and economical education of US personnel",
+        "Leveraging the latest Vive VR technology with the Unity engine to immerse users in a seamless virtual environment with physical equipment"
+      ],
+      "endDate": "May 2020",
+      "startDate": "Jan 2018",
+      "location": "Ames, IA",
+      "position": "Student Researcher ",
+      "company": "Virtual Reality Applications Center"
     },
     {
       "highlights": [
@@ -100,7 +97,7 @@
         "C#",
         "SQL",
         "HTML",
-        "SCSS"
+        null
       ],
       "name": "Programming Languages"
     },
@@ -145,6 +142,14 @@
       "name": "S-PASS",
       "url": "coolslice-spass.herokuapp.com",
       "description": "Frontend solution identifying environmentally sustainable product architectures and suppliers"
+    },
+    {
+      "keywords": [
+        "Java"
+      ],
+      "name": "PunchClock",
+      "description": "A tool to track, store, and visualize work hours for employees ",
+      "url": "github.com/samstifter/punchclock"
     }
   ],
   "awards": [
