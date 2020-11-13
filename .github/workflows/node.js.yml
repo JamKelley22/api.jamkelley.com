@@ -31,6 +31,11 @@ jobs:
         with:
           name: build
           path: build
+          
+      - uses: actions/upload-artifact@master
+        with:
+          name: data
+          path: data
 
   deploy:
     runs-on: ubuntu-latest
@@ -41,6 +46,10 @@ jobs:
         with:
           name: build
           path: build
+      - uses: actions/download-artifact@master
+        with:
+          name: data
+          path: data
 
       - name: copy file via ssh key
         uses: appleboy/scp-action@master
@@ -51,4 +60,15 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           source: 'build'
+          target: ${{ secrets.TARGET_DIR }}
+      
+      - name: copy file via ssh key
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.SSHKEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          source: 'data'
           target: ${{ secrets.TARGET_DIR }}
