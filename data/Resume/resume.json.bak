@@ -113,14 +113,6 @@
         "Unity"
       ],
       "name": "Tools"
-    },
-    {
-      "keywords": [
-        "Usability Analysis ",
-        "Agile Development ",
-        "Video Production "
-      ],
-      "name": "Processes"
     }
   ],
   "projects": [
@@ -149,9 +141,15 @@
   ],
   "awards": [
     {
-      "awarder": "Intel",
+      "title": "Teaching Excellence Award",
+      "date": "Nov 2020",
+      "awarder": "Iowa State University",
+      "summary": "Recognized for \"outstanding achievement\" in teaching. Awarded to the top 10% of Teaching Assistants"
+    },
+    {
       "title": "Intel Ultimate Coder Challenge Winner",
       "date": "Dec 2018",
+      "awarder": "Intel",
       "summary": "Recognized for creating the most innovative \"revolutionary commercial application for the virtual world\""
     }
   ],
