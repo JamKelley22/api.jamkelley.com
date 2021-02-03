@@ -8,10 +8,7 @@
   "basics": {
     "name": "Jameel Kelley",
     "website": "jamkelley.com",
-    "email": "jkelley@iastate.edu",
-    "location": {
-      "address": "Ames, IA"
-    }
+    "email": "jkelley@iastate.edu"
   },
   "education": [
     {
@@ -19,7 +16,7 @@
       "area": "Human-Computer Interaction",
       "studyType": "MS",
       "location": "Ames, IA",
-      "gpa": "4.0",
+      "gpa": "4.00",
       "endDate": "Expected May 2022"
     },
     {

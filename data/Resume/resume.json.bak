@@ -34,6 +34,18 @@
   ],
   "work": [
     {
+      "highlights": [
+        "Created a mixed reality learning environment (VR + Physical) to assist in a more efficient and economical education of US personnel",
+        "Leveraged the latest Vive VR technology with Unity to immerse users in a seamless virtual environment with physical equipment",
+        "Utilizing computer vision to build an educational review dashboard for instructors"
+      ],
+      "company": "Virtual Reality Applications Center",
+      "position": "Research/Graduate Assistant",
+      "location": "Ames, IA",
+      "startDate": "Jan 2018",
+      "endDate": "Present"
+    },
+    {
       "website": "",
       "highlights": [
         "Facilitating communication and collaboration between students on discussion boards",
@@ -44,19 +56,7 @@
       "position": "Graduate Teaching Assistant",
       "location": "Ames, IA",
       "startDate": "Aug 2020",
-      "endDate": "Present"
-    },
-    {
-      "highlights": [
-        "Worked in a cross-disciplinary team to create accurate simulations in a virtual space",
-        "Created a mixed reality learning environment (VR + Physical) to assist in a more efficient and economical education of US personnel",
-        "Leveraged the latest Vive VR technology with Unity to immerse users in a seamless virtual environment with physical equipment"
-      ],
-      "company": "Virtual Reality Applications Center",
-      "position": "Research Assistant",
-      "location": "Ames, IA",
-      "startDate": "Jan 2018",
-      "endDate": "Aug 2020"
+      "endDate": "Nov 2020"
     },
     {
       "highlights": [
