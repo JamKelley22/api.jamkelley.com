@@ -13,10 +13,10 @@
   "education": [
     {
       "institution": "Iowa State University",
-      "area": "Human-Computer Interaction",
+      "area": "Human-Computer Interaction & Computer Engineering",
       "studyType": "MS",
       "location": "Ames, IA",
-      "gpa": "4.00",
+      "gpa": "3.77",
       "endDate": "Expected May 2022"
     },
     {
@@ -32,8 +32,17 @@
   "work": [
     {
       "highlights": [
-        "Created a mixed reality learning environment (VR + Physical) to assist in a more efficient and economical education of US personnel",
-        "Leveraged the latest Vive VR technology with Unity to immerse users in a seamless virtual environment with physical equipment",
+        "Integrated Reinforcement Learning into a Unity simulation for determining optimal alert modality"
+      ],
+      "company": "3M",
+      "position": "Data Science Intern",
+      "location": "Remote",
+      "startDate": "May 2021",
+      "endDate": "Aug 2021"
+    },
+    {
+      "highlights": [
+        "Leveraged the Vive HMD and Unity to immerse users in a virtual environment with physical equipment",
         "Utilizing computer vision to build an educational review dashboard for instructors"
       ],
       "company": "Virtual Reality Applications Center",
@@ -45,9 +54,7 @@
     {
       "website": "",
       "highlights": [
-        "Facilitating communication and collaboration between students on discussion boards",
-        "Problem-Solving with students during office hours to find root cause of errors",
-        "Managing grading for 50+ students on a weekly basis"
+        "Managing grading and hosting office hours for 50+ students on a weekly basis"
       ],
       "company": "Iowa State University",
       "position": "Graduate Teaching Assistant",
@@ -57,8 +64,7 @@
     },
     {
       "highlights": [
-        "Led a team of five engineers in technology discovery and implementation of 13 client-facing application pages in a React environment",
-        "Tested code written by peers and created documentation upon discovery of issues"
+        "Led a team of five engineers in technology discovery and implementation of 13 client-facing application pages in a React environment"
       ],
       "company": "Buildertrend",
       "position": "Software Development Intern",
@@ -78,8 +84,7 @@
     },
     {
       "highlights": [
-        "Developed a usability centered interface for online sustainability education",
-        "Wrote technical documents that were submitted to the International Review Board to conducting usability testing"
+        "Developed a usability centered interface for online sustainability education"
       ],
       "endDate": "Aug 2017",
       "startDate": "May 2017",
@@ -119,24 +124,19 @@
         "React",
         "PostgreSQL",
         "Spring",
-        "Hibernate",
-        "Python",
-        "Tensorflow",
-        "Java"
+        "Python"
       ],
       "name": "Consumer-Aware Warehouse Management",
       "description": "A proof of concept software for prediction of automatic optimal ordering for warehouses"
-    },
-    {
-      "keywords": [
-        "React"
-      ],
-      "name": "S-PASS",
-      "url": "coolslice-spass.herokuapp.com",
-      "description": "Frontend solution identifying environmentally sustainable product architectures and suppliers"
     }
   ],
   "awards": [
+    {
+      "title": "ISU Usabilathon Winner",
+      "date": "Mar 2021",
+      "awarder": "HCI Student Group",
+      "summary": "Winners of a competition where I and two others created a user interface mockup to help inform undeserved students of financial aid options"
+    },
     {
       "title": "Teaching Excellence Award",
       "date": "Nov 2020",

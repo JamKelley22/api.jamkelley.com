@@ -10,7 +10,8 @@
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
-    "test": "jest"
+    "test": "jest",
+    "backup_resumes": "mv ./data/Resume/resume.json ./data/Resume/resume.json.bak && mv ./data/Resume/resume.pdf ./data/Resume/resume.pdf.bak"
   },
   "husky": {
     "hooks": {
